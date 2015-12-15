@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Entertament</title>
+  <title>Ent</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body style="background-color: #EAEAEA">
 
-<%= yield %>
+  <%= render "shared/nav" %>
+
+  <div class="container">
+  </div>
+  <hr>
+
+
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Place sticky footer content here.</p>
+    </div>
+  </footer>
+
 
 </body>
 </html>
