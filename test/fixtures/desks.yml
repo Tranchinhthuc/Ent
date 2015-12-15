@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  play_date: 
+  type_desk: 1
+  value: 1.5
+
+two:
+  play_date: 
+  type_desk: 1
+  value: 1.5

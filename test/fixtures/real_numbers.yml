@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  result_board_id: 1
+  value: 1
+  type_prize: 1
+
+two:
+  result_board_id: 1
+  value: 1
+  type_prize: 1
